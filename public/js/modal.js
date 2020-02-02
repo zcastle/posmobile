@@ -167,7 +167,21 @@ var showAtenciones = function(row, cb){
             <div class='modal-header'> \
                 <h5 class='modal-title'>Atenciones</h5> \
             </div> \
-            <div class='modal-body'>CACHORRI</div> \
+            <div class='modal-body'> \
+                <div class='container'> \
+                    <div class='row'> \
+                        <div class='col-sm'> \
+                            One of three columns \
+                        </div> \
+                        <div class='col-sm'> \
+                            One of three columns \
+                        </div> \
+                        <div class='col-sm'> \
+                            One of three columns \
+                        </div> \
+                    </div> \
+                </div> \
+            </div> \
             <div class='modal-footer'> \
                 <button type='button' class='btn btn-secondary' data-dismiss='modal'>Cerrar</button> \
                 <button type='button' class='btn btn-primary' data-dismiss='modal'>Guardar</button> \

@@ -27,7 +27,7 @@ var newProductoRow = function(row){
             $(this).addClass("active").siblings().removeClass("active");
             addRow({
                 "nro": $("#lblNro").text(),
-                "pax": $("#btnPax").text(),
+                "pax": $.trim($("#btnPax").text()),
                 "productoId": $(this).find("div.productoId").text(),
                 "producto": $(this).find("div.productoNombre").text(),
                 "cantidad": 1,
